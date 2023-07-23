@@ -101,13 +101,13 @@
         <div class="content">
             <img src="./pos/img/Logo.svg" alt="">
             <div class="title m-b-md">
-            TASTY CORNER RESTAURANT 
+            TASTY CORNER RESTAURANTE 
             </div>
 
             <div class="links">
-                <a href="pos/admin/">Admin Login</a>
-                <a href="pos/cashier/">Cashier Login</a>
-                <a href="pos/customer">Customer Login</a>
+                <a href="pos/admin/">Administrador</a>
+                <a href="pos/cashier/">Cajero</a>
+                <!-- <a href="pos/customer">Customer Login</a> -->
             </div>
         </div>
     </div>
