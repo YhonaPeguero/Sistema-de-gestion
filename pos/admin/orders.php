@@ -33,17 +33,17 @@ require_once('partials/_head.php');
         <div class="col">
           <div class="card shadow">
             <div class="card-header border-0">
-              Select On Any Product To Make An Order
+            Seleccione en cualquier producto para hacer un pedido
             </div>
             <div class="table-responsive">
               <table class="table align-items-center table-flush">
                 <thead class="thead-light">
                   <tr>
-                    <th scope="col"><b>Image</b></th>
-                    <th scope="col"><b>Product Code</b></th>
-                    <th scope="col"><b>Name</b></th>
-                    <th scope="col"><b>Price</b></th>
-                    <th scope="col"><b>Action</b></th>
+                    <th scope="col"><b>Imagen</b></th>
+                    <th scope="col"><b>Código del producto</b></th>
+                    <th scope="col"><b>Nombre</b></th>
+                    <th scope="col"><b>Precio</b></th>
+                    <th scope="col"><b>Acción</b></th>
                   </tr>
                 </thead>
                 <tbody>
@@ -72,7 +72,7 @@ require_once('partials/_head.php');
                         <a href="make_oder.php?prod_id=<?php echo $prod->prod_id; ?>&prod_name=<?php echo $prod->prod_name; ?>&prod_price=<?php echo $prod->prod_price; ?>">
                           <button class="btn btn-sm btn-warning">
                             <i class="fas fa-cart-plus"></i>
-                            Place Order
+                            Hacer un pedido
                           </button>
                         </a>
                       </td>

@@ -59,28 +59,28 @@ require_once('partials/_head.php');
         <div class="col">
           <div class="card shadow">
             <div class="card-header border-0">
-              <h3>Please Fill All Fields</h3>
+              <h3>Rellenar todos los campos</h3>
             </div>
             <div class="card-body">
               <form method="POST">
                 <div class="form-row">
                   <div class="col-md-6">
-                    <label>Staff Number</label>
+                    <label>Número del personal</label>
                     <input type="text" name="staff_number" class="form-control" value="<?php echo $alpha; ?>-<?php echo $beta; ?>">
                   </div>
                   <div class="col-md-6">
-                    <label>Staff Name</label>
+                    <label>Nombre del personal</label>
                     <input type="text" name="staff_name" class="form-control" value="">
                   </div>
                 </div>
                 <hr>
                 <div class="form-row">
                   <div class="col-md-6">
-                    <label>Staff Email</label>
+                    <label>Correo electrónico del personal</label>
                     <input type="email" name="staff_email" class="form-control" value="">
                   </div>
                   <div class="col-md-6">
-                    <label>Staff Password</label>
+                    <label>Contraseña del personal</label>
                     <input type="password" name="staff_password" class="form-control" value="">
                   </div>
                 </div>

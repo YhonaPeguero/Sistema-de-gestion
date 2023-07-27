@@ -27,7 +27,7 @@ if (isset($_POST['UpdateStaff'])) {
     if ($postStmt) {
       $success = "Staff Updated" && header("refresh:1; url=hrm.php");
     } else {
-      $err = "Please Try Again Or Try Later";
+      $err = "Inténtelo de nuevo o más tarde";
     }
   }
 }
@@ -66,28 +66,28 @@ require_once('partials/_head.php');
           <div class="col">
             <div class="card shadow">
               <div class="card-header border-0">
-                <h3>Please Fill All Fields</h3>
+                <h3>Rellene todos los campos</h3>
               </div>
               <div class="card-body">
                 <form method="POST">
                   <div class="form-row">
                     <div class="col-md-6">
-                      <label>Staff Number</label>
+                      <label>Número del Personal</label>
                       <input type="text" name="staff_number" class="form-control" value="<?php echo $staff->staff_number; ?>">
                     </div>
                     <div class="col-md-6">
-                      <label>Staff Name</label>
+                      <label>Nombre del Personal</label>
                       <input type="text" name="staff_name" class="form-control" value="<?php echo $staff->staff_name; ?>">
                     </div>
                   </div>
 
                   <div class="form-row">
                     <div class="col-md-6">
-                      <label>Staff Email</label>
+                      <label>Correo electrónico del personal</label>
                       <input type="email" name="staff_email" class="form-control" value="<?php echo $staff->staff_email; ?>">
                     </div>
                     <div class="col-md-6">
-                      <label>Staff Password</label>
+                      <label>Contraseña del Personal</label>
                       <input type="password" name="staff_password" class="form-control" value="">
                     </div>
                   </div>

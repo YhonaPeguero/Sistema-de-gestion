@@ -40,7 +40,7 @@ require_once('partials/_head.php');
           <div class="header-body text-center mb-7">
             <div class="row justify-content-center">
               <div class="col-lg-5 col-md-6">
-                <h1 class="text-white">Restaurant Point Of Sale</h1>
+                <h1 class="text-white">Restaurante Punto de Venta</h1>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@ require_once('partials/_head.php');
                       <div class="input-group-prepend">
                         <span class="input-group-text"><i class="ni ni-email-83"></i></span>
                       </div>
-                      <input class="form-control" required name="reset_email" placeholder="Email" type="email">
+                      <input class="form-control" required name="reset_email" placeholder="Correo" type="email">
                     </div>
                   </div>
                   <div style="display:none">
@@ -67,14 +67,14 @@ require_once('partials/_head.php');
                     <input type="text" value="Pending" name="reset_status">
                   </div>
                   <div class="text-center">
-                    <button type="submit" name="reset_pwd" class="btn btn-primary my-4">Reset Password</button>
+                    <button type="submit" name="reset_pwd" class="btn btn-primary my-4">Restablecer contraseña</button>
                   </div>
                 </form>
               </div>
             </div>
             <div class="row mt-3">
               <div class="col-6">
-                <a href="index.php" class="text-light"><small>Log In?</small></a>
+                <a href="index.php" class="text-light"><small>¿Iniciar sesión?</small></a>
               </div>
             </div>
           </div>

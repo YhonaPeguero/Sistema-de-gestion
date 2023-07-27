@@ -61,13 +61,13 @@ require_once('partials/_head.php');
         <div class="col">
           <div class="card shadow">
             <div class="card-header border-0">
-              <h3>Please Fill All Fields</h3>
+              <h3>Rellenar todos los campos</h3>
             </div>
             <div class="card-body">
               <form method="POST" enctype="multipart/form-data">
                 <div class="form-row">
                   <div class="col-md-6">
-                    <label>Product Name</label>
+                    <label>Nombre del producto</label>
                     <input type="text" name="prod_name" class="form-control">
                     <input type="hidden" name="prod_id" value="<?php echo $prod_id; ?>" class="form-control">
                   </div>
@@ -79,18 +79,18 @@ require_once('partials/_head.php');
                 <hr>
                 <div class="form-row">
                   <div class="col-md-6">
-                    <label>Product Image</label>
+                    <label>Imagen del producto</label>
                     <input type="file" name="prod_img" class="btn btn-outline-success form-control" value="">
                   </div>
                   <div class="col-md-6">
-                    <label>Product Price</label>
+                    <label>Precio del producto</label>
                     <input type="text" name="prod_price" class="form-control" value="">
                   </div>
                 </div>
                 <hr>
                 <div class="form-row">
                   <div class="col-md-12">
-                    <label>Product Description</label>
+                    <label>Descripción del producto</label>
                     <textarea rows="5" name="prod_desc" class="form-control" value=""></textarea>
                   </div>
                 </div>

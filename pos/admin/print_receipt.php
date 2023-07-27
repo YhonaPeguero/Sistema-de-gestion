@@ -12,7 +12,7 @@ check_login();
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
     <meta name="author" content="MartDevelopers Inc">
-    <title>Restaurant Point Of Sale </title>
+    <title>Restaurant Tasty Corner</title>
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icons/favicon-32x32.png">
@@ -69,15 +69,15 @@ while ($order = $res->fetch_object()) {
                     </div>
                     <div class="row">
                         <div class="text-center">
-                            <h2>Receipt</h2>
+                            <h2>Recibo</h2>
                         </div>
                         </span>
                         <table class="table table-bordered">
                             <thead>
                                 <tr>
-                                    <th>Item</th>
-                                    <th>Quantity</th>
-                                    <th class="text-center">Unit Price</th>
+                                    <th>Artículo</th>
+                                    <th>Cantidad</th>
+                                    <th class="text-center">Precio por unidad</th>
                                     <th class="text-center">Total</th>
                                 </tr>
                             </thead>
@@ -125,7 +125,7 @@ while ($order = $res->fetch_object()) {
                 </div>
                 <div class="well col-xs-10 col-sm-10 col-md-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-3">
                     <button id="print" onclick="printContent('Receipt');" class="btn btn-success btn-lg text-justify btn-block">
-                        Print <span class="fas fa-print"></span>
+                    Imprimir <span class="fas fa-print"></span>
                     </button>
                 </div>
             </div>

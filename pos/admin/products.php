@@ -47,18 +47,18 @@ require_once('partials/_head.php');
             <div class="card-header border-0">
               <a href="add_product.php" class="btn btn-outline-success">
                 <i class="fas fa-utensils"></i>
-                Add New Product
+                Añadir nuevo producto
               </a>
             </div>
             <div class="table-responsive">
               <table class="table align-items-center table-flush">
                 <thead class="thead-light">
                   <tr>
-                    <th scope="col">Image</th>
-                    <th scope="col">Product Code</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Price</th>
-                    <th scope="col">Actions</th>
+                    <th scope="col">Imagen</th>
+                    <th scope="col">Código del producto</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Acción</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -87,14 +87,14 @@ require_once('partials/_head.php');
                         <a href="products.php?delete=<?php echo $prod->prod_id; ?>">
                           <button class="btn btn-sm btn-danger">
                             <i class="fas fa-trash"></i>
-                            Delete
+                            Borrar
                           </button>
                         </a>
 
                         <a href="update_product.php?update=<?php echo $prod->prod_id; ?>">
                           <button class="btn btn-sm btn-primary">
                             <i class="fas fa-edit"></i>
-                            Update
+                            Actualizar
                           </button>
                         </a>
                       </td>

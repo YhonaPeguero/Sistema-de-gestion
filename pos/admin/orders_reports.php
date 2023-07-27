@@ -32,20 +32,20 @@ require_once('partials/_head.php');
                 <div class="col">
                     <div class="card shadow">
                         <div class="card-header border-0">
-                            Orders Records
+                        Registro de pedidos
                         </div>
                         <div class="table-responsive">
                             <table class="table align-items-center table-flush">
                                 <thead class="thead-light">
                                     <tr>
-                                        <th class="text-success" scope="col">Code</th>
-                                        <th scope="col">Customer</th>
-                                        <th class="text-success" scope="col">Product</th>
-                                        <th scope="col">Unit Price</th>
+                                        <th class="text-success" scope="col">Codigo</th>
+                                        <th scope="col">Cliente</th>
+                                        <th class="text-success" scope="col">Producto</th>
+                                        <th scope="col">Precio por unidad</th>
                                         <th class="text-success" scope="col">#</th>
-                                        <th scope="col">Total Price</th>
-                                        <th scop="col">Status</th>
-                                        <th scope="col">Date</th>
+                                        <th scope="col">Precio total</th>
+                                        <th scop="col">Estado</th>
+                                        <th scope="col">Fecha</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -66,7 +66,7 @@ require_once('partials/_head.php');
                                             <td class="text-success"><?php echo $order->prod_qty; ?></td>
                                             <td>$ <?php echo $total; ?></td>
                                             <td><?php if ($order->order_status == '') {
-                                                    echo "<span class='badge badge-danger'>Not Paid</span>";
+                                                    echo "<span class='badge badge-danger'>No pagada</span>";
                                                 } else {
                                                     echo "<span class='badge badge-success'>$order->order_status</span>";
                                                 } ?></td>

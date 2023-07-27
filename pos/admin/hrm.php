@@ -46,16 +46,16 @@ require_once('partials/_head.php');
         <div class="col">
           <div class="card shadow">
             <div class="card-header border-0">
-              <a href="add_staff.php" class="btn btn-outline-success"><i class="fas fa-user-plus"></i>Add New Staff</a>
+              <a href="add_staff.php" class="btn btn-outline-success"><i class="fas fa-user-plus"></i>Añadir nuevo personal</a>
             </div>
             <div class="table-responsive">
               <table class="table align-items-center table-flush">
                 <thead class="thead-light">
                   <tr>
-                    <th scope="col">Staff Number</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Email</th>
-                    <th scope="col">Actions</th>
+                    <th scope="col">Número del personal</th>
+                    <th scope="col">Nombre del personal</th>
+                    <th scope="col">Correo del personal</th>
+                    <th scope="col">Acciones del personal</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -74,14 +74,14 @@ require_once('partials/_head.php');
                         <a href="hrm.php?delete=<?php echo $staff->staff_id; ?>">
                           <button class="btn btn-sm btn-danger">
                             <i class="fas fa-trash"></i>
-                            Delete
+                            Borrar
                           </button>
                         </a>
 
                         <a href="update_staff.php?update=<?php echo $staff->staff_id; ?>">
                           <button class="btn btn-sm btn-primary">
                             <i class="fas fa-user-edit"></i>
-                            Update
+                            Actualizar
                           </button>
                         </a>
                       </td>

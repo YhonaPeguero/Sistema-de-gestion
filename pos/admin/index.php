@@ -29,7 +29,7 @@ require_once('partials/_head.php');
         <div class="header-body text-center mb-7">
           <div class="row justify-content-center">
             <div class="col-lg-5 col-md-6">
-              <h1 class="text-white">Sistema de gestión de punto de venta</h1>
+              <h1 class="text-white">Sistema de gestión de venta</h1>
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ require_once('partials/_head.php');
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="ni ni-email-83"></i></span>
                     </div>
-                    <input class="form-control" required name="admin_email" placeholder="Email" type="email">
+                    <input class="form-control" required name="admin_email" placeholder="Correo" type="email">
                   </div>
                 </div>
                 <div class="form-group">
@@ -55,17 +55,17 @@ require_once('partials/_head.php');
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
                     </div>
-                    <input class="form-control" required name="admin_password" placeholder="Password" type="password">
+                    <input class="form-control" required name="admin_password" placeholder="Contraseña" type="password">
                   </div>
                 </div>
                 <div class="custom-control custom-control-alternative custom-checkbox">
                   <input class="custom-control-input" id=" customCheckLogin" type="checkbox">
                   <label class="custom-control-label" for=" customCheckLogin">
-                    <span class="text-muted">Remember Me</span>
+                    <span class="text-muted">Recordar</span>
                   </label>
                 </div>
                 <div class="text-center">
-                  <button type="submit" name="login" class="btn btn-primary my-4">Login</button>
+                  <button type="submit" name="login" class="btn btn-primary my-4">Iniciar sesión</button>
                 </div>
               </form>
 

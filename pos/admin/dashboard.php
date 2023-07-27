@@ -31,7 +31,7 @@ require_once('partials/_analytics.php');
                 <div class="card-body">
                   <div class="row">
                     <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Customers</h5>
+                      <h5 class="card-title text-uppercase text-muted mb-0">Clientes</h5>
                       <span class="h2 font-weight-bold mb-0"><?php echo $customers; ?></span>
                     </div>
                     <div class="col-auto">
@@ -49,7 +49,7 @@ require_once('partials/_analytics.php');
                 <div class="card-body">
                   <div class="row">
                     <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Products</h5>
+                      <h5 class="card-title text-uppercase text-muted mb-0">Productos</h5>
                       <span class="h2 font-weight-bold mb-0"><?php echo $products; ?></span>
                     </div>
                     <div class="col-auto">
@@ -66,7 +66,7 @@ require_once('partials/_analytics.php');
                 <div class="card-body">
                   <div class="row">
                     <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Orders</h5>
+                      <h5 class="card-title text-uppercase text-muted mb-0">Pedidos</h5>
                       <span class="h2 font-weight-bold mb-0"><?php echo $orders; ?></span>
                     </div>
                     <div class="col-auto">
@@ -83,7 +83,7 @@ require_once('partials/_analytics.php');
                 <div class="card-body">
                   <div class="row">
                     <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Sales</h5>
+                      <h5 class="card-title text-uppercase text-muted mb-0">Ventas</h5>
                       <span class="h2 font-weight-bold mb-0">$<?php echo $sales; ?></span>
                     </div>
                     <div class="col-auto">
@@ -107,10 +107,10 @@ require_once('partials/_analytics.php');
             <div class="card-header border-0">
               <div class="row align-items-center">
                 <div class="col">
-                  <h3 class="mb-0">Recent Orders</h3>
+                  <h3 class="mb-0">Pedidos recientes</h3>
                 </div>
                 <div class="col text-right">
-                  <a href="orders_reports.php" class="btn btn-sm btn-primary">See all</a>
+                  <a href="orders_reports.php" class="btn btn-sm btn-primary">Ver todo</a>
                 </div>
               </div>
             </div>
@@ -119,14 +119,14 @@ require_once('partials/_analytics.php');
               <table class="table align-items-center table-flush">
                 <thead class="thead-light">
                   <tr>
-                    <th class="text-success" scope="col"><b>Code</b></th>
-                    <th scope="col"><b>Customer</b></th>
-                    <th class="text-success" scope="col"><b>Product</b></th>
-                    <th scope="col"><b>Unit Price</b></th>
+                    <th class="text-success" scope="col"><b>Codigo</b></th>
+                    <th scope="col"><b>Cliente</b></th>
+                    <th class="text-success" scope="col"><b>Producto</b></th>
+                    <th scope="col"><b>Precio por unidad</b></th>
                     <th class="text-success" scope="col"><b>Qty</b></th>
                     <th scope="col"><b>Total</b></th>
-                    <th scop="col"><b>Status</b></th>
-                    <th class="text-success" scope="col"><b>Date</b></th>
+                    <th scop="col"><b>Estado</b></th>
+                    <th class="text-success" scope="col"><b>Fecha</b></th>
                   </tr>
                 </thead>
                 <tbody>
@@ -167,10 +167,10 @@ require_once('partials/_analytics.php');
             <div class="card-header border-0">
               <div class="row align-items-center">
                 <div class="col">
-                  <h3 class="mb-0">Recent Payments</h3>
+                  <h3 class="mb-0">Pagos Recientes</h3>
                 </div>
                 <div class="col text-right">
-                  <a href="payments_reports.php" class="btn btn-sm btn-primary">See all</a>
+                  <a href="payments_reports.php" class="btn btn-sm btn-primary">Ver todo</a>
                 </div>
               </div>
             </div>
@@ -179,9 +179,9 @@ require_once('partials/_analytics.php');
               <table class="table align-items-center table-flush">
                 <thead class="thead-light">
                   <tr>
-                    <th class="text-success" scope="col"><b>Code</b></th>
-                    <th scope="col"><b>Amount</b></th>
-                    <th class='text-success' scope="col"><b>Order Code</b></th>
+                    <th class="text-success" scope="col"><b>Codigo</b></th>
+                    <th scope="col"><b>Cantidad</b></th>
+                    <th class='text-success' scope="col"><b>Codigo de orden</b></th>
                   </tr>
                 </thead>
                 <tbody>

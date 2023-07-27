@@ -11,7 +11,7 @@ while ($admin = $res->fetch_object()) {
     <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
         <div class="container-fluid">
             <!-- Brand -->
-            <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="dashboard.php"><?php echo $admin->admin_name; ?> Dashboard</a>
+            <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="dashboard.php"><?php echo $admin->admin_name; ?> Panel de control</a>
             <!-- Form -->
 
             <!-- User -->
@@ -29,16 +29,16 @@ while ($admin = $res->fetch_object()) {
                     </a>
                     <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right">
                         <div class=" dropdown-header noti-title">
-                            <h6 class="text-overflow m-0">Welcome!</h6>
+                            <h6 class="text-overflow m-0">¡Bienvenido!</h6>
                         </div>
                         <a href="change_profile.php" class="dropdown-item">
                             <i class="ni ni-single-02"></i>
-                            <span>My profile</span>
+                            <span>Mi perfil</span>
                         </a>
                         <div class="dropdown-divider"></div>
                         <a href="logout.php" class="dropdown-item">
                             <i class="ni ni-user-run"></i>
-                            <span>Logout</span>
+                            <span>Cerrar sesión</span>
                         </a>
                     </div>
                 </li>

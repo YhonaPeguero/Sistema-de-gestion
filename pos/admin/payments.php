@@ -14,7 +14,7 @@ if (isset($_GET['cancel'])) {
     if ($stmt) {
         $success = "Deleted" && header("refresh:1; url=payments.php");
     } else {
-        $err = "Try Again Later";
+        $err = "Vuelva a intentarlo más tarde";
     }
 }
 require_once('partials/_head.php');
@@ -48,19 +48,19 @@ require_once('partials/_head.php');
                         <div class="card-header border-0">
                             <a href="orders.php" class="btn btn-outline-success">
                                 <i class="fas fa-plus"></i> <i class="fas fa-utensils"></i>
-                                Make A New Order
+                                Realizar un nuevo pedido
                             </a>
                         </div>
                         <div class="table-responsive">
                             <table class="table align-items-center table-flush">
                                 <thead class="thead-light">
                                     <tr>
-                                        <th scope="col">Code</th>
-                                        <th scope="col">Customer</th>
-                                        <th scope="col">Product</th>
-                                        <th scope="col">Total Price</th>
-                                        <th scope="col">Date</th>
-                                        <th scope="col">Action</th>
+                                        <th scope="col">Código</th>
+                                        <th scope="col">Cliente</th>
+                                        <th scope="col">Producto</th>
+                                        <th scope="col">Precio Total</th>
+                                        <th scope="col">Fecha</th>
+                                        <th scope="col">Acción</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -83,14 +83,14 @@ require_once('partials/_head.php');
                                                 <a href="pay_order.php?order_code=<?php echo $order->order_code;?>&customer_id=<?php echo $order->customer_id;?>&order_status=Paid">
                                                     <button class="btn btn-sm btn-success">
                                                         <i class="fas fa-handshake"></i>
-                                                        Pay Order
+                                                        Orden de pago
                                                     </button>
                                                 </a>
 
                                                 <a href="payments.php?cancel=<?php echo $order->order_id; ?>">
                                                     <button class="btn btn-sm btn-danger">
                                                         <i class="fas fa-window-close"></i>
-                                                        Cancel Order
+                                                        Cancelar orden
                                                     </button>
                                                 </a>
                                             </td>

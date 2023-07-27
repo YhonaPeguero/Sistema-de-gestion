@@ -32,20 +32,20 @@ require_once('partials/_head.php');
                 <div class="col">
                     <div class="card shadow">
                         <div class="card-header border-0">
-                            Paid Orders
+                        Pedidos pagados
                         </div>
                         <div class="table-responsive">
                             <table class="table align-items-center table-flush">
                                 <thead class="thead-light">
                                     <tr>
-                                        <th class="text-success" scope="col">Code</th>
-                                        <th scope="col">Customer</th>
-                                        <th class="text-success" scope="col">Product</th>
-                                        <th scope="col">Unit Price</th>
-                                        <th class="text-success" scope="col">Qty</th>
-                                        <th scope="col">Total Price</th>
-                                        <th class="text-success" scope="col">Date</th>
-                                        <th scope="col">Actions</th>
+                                        <th class="text-success" scope="col">Código</th>
+                                        <th scope="col">Cliente</th>
+                                        <th class="text-success" scope="col">Producto</th>
+                                        <th scope="col">Precio por unidad</th>
+                                        <th class="text-success" scope="col">Cantidad</th>
+                                        <th scope="col">Precio Total</th>
+                                        <th class="text-success" scope="col">Fecha</th>
+                                        <th scope="col">Acción</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -70,7 +70,7 @@ require_once('partials/_head.php');
                                                 <a target="_blank" href="print_receipt.php?order_code=<?php echo $order->order_code; ?>">
                                                     <button class="btn btn-sm btn-primary">
                                                         <i class="fas fa-print"></i>
-                                                        Print Receipt
+                                                        Imprimir recibo
                                                     </button>
                                                 </a>
                                             </td>
