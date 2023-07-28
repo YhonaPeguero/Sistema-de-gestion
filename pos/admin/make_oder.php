@@ -119,7 +119,7 @@ require_once('partials/_head.php');
                 <br>
                 <div class="form-row">
                   <div class="col-md-6">
-                    <input type="submit" name="make" value="Make Order" class="btn btn-success" value="">
+                    <input type="submit" name="make" value="Hacer pedido" class="btn btn-success" value="">
                   </div>
                 </div>
               </form>

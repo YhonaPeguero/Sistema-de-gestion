@@ -31,7 +31,7 @@ require_once('partials/_analytics.php');
                 <div class="card-body">
                   <div class="row">
                     <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Customers</h5>
+                      <h5 class="card-title text-uppercase text-muted mb-0">Clientes</h5>
                       <span class="h2 font-weight-bold mb-0"><?php echo $customers; ?></span>
                     </div>
                     <div class="col-auto">
@@ -49,7 +49,7 @@ require_once('partials/_analytics.php');
                 <div class="card-body">
                   <div class="row">
                     <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Products</h5>
+                      <h5 class="card-title text-uppercase text-muted mb-0">Productos</h5>
                       <span class="h2 font-weight-bold mb-0"><?php echo $products; ?></span>
                     </div>
                     <div class="col-auto">
@@ -66,7 +66,7 @@ require_once('partials/_analytics.php');
                 <div class="card-body">
                   <div class="row">
                     <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Orders</h5>
+                      <h5 class="card-title text-uppercase text-muted mb-0">Ordenes</h5>
                       <span class="h2 font-weight-bold mb-0"><?php echo $orders; ?></span>
                     </div>
                     <div class="col-auto">
@@ -83,7 +83,7 @@ require_once('partials/_analytics.php');
                 <div class="card-body">
                   <div class="row">
                     <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Sales</h5>
+                      <h5 class="card-title text-uppercase text-muted mb-0">Ventas</h5>
                       <span class="h2 font-weight-bold mb-0">$<?php echo $sales; ?></span>
                     </div>
                     <div class="col-auto">
