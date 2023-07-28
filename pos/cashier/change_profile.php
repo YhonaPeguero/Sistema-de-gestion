@@ -67,7 +67,7 @@ if (isset($_POST['changePassword'])) {
                 if ($stmt) {
                     $success = "Password Changed" && header("refresh:1; url=dashboard.php");
                 } else {
-                    $err = "Please Try Again Or Try Later";
+                    $err = "Inténtelo de nuevo o más tarde";
                 }
             }
         }
@@ -102,8 +102,8 @@ require_once('partials/_head.php');
                 <div class="container-fluid d-flex align-items-center">
                     <div class="row">
                         <div class="col-lg-7 col-md-10">
-                            <h1 class="display-2 text-white">Hello <?php echo $staff->staff_name; ?></h1>
-                            <p class="text-white mt-0 mb-5">This is your profile page. You can customize your profile as you want And also change password too</p>
+                            <h1 class="display-2 text-white">Hola <?php echo $staff->staff_name; ?></h1>
+                            <p class="text-white mt-0 mb-5">Esta es tu página de perfil. Puedes personalizar tu perfil como quieras y también cambiar la contraseña.</p>
                         </div>
                     </div>
                 </div>
@@ -163,18 +163,18 @@ require_once('partials/_head.php');
                             </div>
                             <div class="card-body">
                                 <form method="post">
-                                    <h6 class="heading-small text-muted mb-4">User information</h6>
+                                    <h6 class="heading-small text-muted mb-4">Información del usuario</h6>
                                     <div class="pl-lg-4">
                                         <div class="row">
                                             <div class="col-lg-6">
                                                 <div class="form-group">
-                                                    <label class="form-control-label" for="input-username">User Name</label>
+                                                    <label class="form-control-label" for="input-username">Nombre de Usuario</label>
                                                     <input type="text" name="staff_name" value="<?php echo $staff->staff_name; ?>" id="input-username" class="form-control form-control-alternative" ">
                                                     </div>
                                                     </div>
                                                     <div class=" col-lg-6">
                                                     <div class="form-group">
-                                                        <label class="form-control-label" for="input-email">Email address</label>
+                                                        <label class="form-control-label" for="input-email">Correo de Usuario</label>
                                                         <input type="email" id="input-email" value="<?php echo $staff->staff_email; ?>" name="staff_email" class="form-control form-control-alternative">
                                                     </div>
                                                 </div>
@@ -189,26 +189,26 @@ require_once('partials/_head.php');
                                                 </form>
                                                 <hr>
                                                 <form method =" post">
-                                        <h6 class="heading-small text-muted mb-4">Change Password</h6>
+                                        <h6 class="heading-small text-muted mb-4">Cambiar Contraseña</h6>
                                         <div class="pl-lg-4">
                                             <div class="row">
                                                 <div class="col-lg-12">
                                                     <div class="form-group">
-                                                        <label class="form-control-label" for="input-username">Old Password</label>
+                                                        <label class="form-control-label" for="input-username">Contraseña anterior</label>
                                                         <input type="password" name="old_password" id="input-username" class="form-control form-control-alternative">
                                                     </div>
                                                 </div>
 
                                                 <div class="col-lg-12">
                                                     <div class="form-group">
-                                                        <label class="form-control-label" for="input-email">New Password</label>
+                                                        <label class="form-control-label" for="input-email">Nueva Contraseña</label>
                                                         <input type="password" name="new_password" class="form-control form-control-alternative">
                                                     </div>
                                                 </div>
 
                                                 <div class="col-lg-12">
                                                     <div class="form-group">
-                                                        <label class="form-control-label" for="input-email">Confirm New Password</label>
+                                                        <label class="form-control-label" for="input-email">Confirmar Nueva Contraseña</label>
                                                         <input type="password" name="confirm_password" class="form-control form-control-alternative">
                                                     </div>
                                                 </div>

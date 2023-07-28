@@ -107,10 +107,10 @@ require_once('partials/_analytics.php');
             <div class="card-header border-0">
               <div class="row align-items-center">
                 <div class="col">
-                  <h3 class="mb-0">Recent Orders</h3>
+                  <h3 class="mb-0">Pedidos recientes</h3>
                 </div>
                 <div class="col text-right">
-                  <a href="orders_reports.php" class="btn btn-sm btn-primary">See all</a>
+                  <a href="orders_reports.php" class="btn btn-sm btn-primary">Ver todos</a>
                 </div>
               </div>
             </div>
@@ -119,14 +119,14 @@ require_once('partials/_analytics.php');
               <table class="table align-items-center table-flush">
                 <thead class="thead-light">
                   <tr>
-                    <th class="text-success" scope="col">Code</th>
-                    <th scope="col">Customer</th>
-                    <th class="text-success" scope="col">Product</th>
+                    <th class="text-success" scope="col">Código</th>
+                    <th scope="col">Cliente</th>
+                    <th class="text-success" scope="col">Producto</th>
                     <th scope="col">Unit Price</th>
-                    <th class="text-success" scope="col">Qty</th>
+                    <th class="text-success" scope="col">Cantidad</th>
                     <th scope="col">Total</th>
-                    <th scop="col">Status</th>
-                    <th class="text-success" scope="col">Date</th>
+                    <th scop="col">Estado</th>
+                    <th class="text-success" scope="col">Fecha</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -147,7 +147,7 @@ require_once('partials/_analytics.php');
                       <td class="text-success"><?php echo $order->prod_qty; ?></td>
                       <td>$<?php echo $total; ?></td>
                       <td><?php if ($order->order_status == '') {
-                            echo "<span class='badge badge-danger'>Not Paid</span>";
+                            echo "<span class='badge badge-danger'>No Pago</span>";
                           } else {
                             echo "<span class='badge badge-success'>$order->order_status</span>";
                           } ?></td>
@@ -167,10 +167,10 @@ require_once('partials/_analytics.php');
             <div class="card-header border-0">
               <div class="row align-items-center">
                 <div class="col">
-                  <h3 class="mb-0">Recent Payments</h3>
+                  <h3 class="mb-0">Pedidos recientes</h3>
                 </div>
                 <div class="col text-right">
-                  <a href="payments_reports.php" class="btn btn-sm btn-primary">See all</a>
+                  <a href="payments_reports.php" class="btn btn-sm btn-primary">Ver todos</a>
                 </div>
               </div>
             </div>
@@ -179,9 +179,9 @@ require_once('partials/_analytics.php');
               <table class="table align-items-center table-flush">
                 <thead class="thead-light">
                   <tr>
-                    <th class="text-success" scope="col">Code</th>
-                    <th scope="col">Amount</th>
-                    <th class='text-success' scope="col">Order Code</th>
+                    <th class="text-success" scope="col">Código</th>
+                    <th scope="col">Cantidad</th>
+                    <th class='text-success' scope="col">Código de pedido</th>
                   </tr>
                 </thead>
                 <tbody>

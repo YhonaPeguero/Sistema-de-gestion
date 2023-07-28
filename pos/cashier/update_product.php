@@ -28,7 +28,7 @@ if (isset($_POST['UpdateProduct'])) {
     if ($postStmt) {
       $success = "Product Updated" && header("refresh:1; url=products.php");
     } else {
-      $err = "Please Try Again Or Try Later";
+      $err = "Vuelva a intentarlo o inténtelo más tarde";
     }
   }
 }
@@ -67,35 +67,35 @@ require_once('partials/_head.php');
           <div class="col">
             <div class="card shadow">
               <div class="card-header border-0">
-                <h3>Please Fill All Fields</h3>
+                <h3>Rellene todos los campos</h3>
               </div>
               <div class="card-body">
                 <form method="POST" enctype="multipart/form-data">
                   <div class="form-row">
                     <div class="col-md-6">
-                      <label>Product Name</label>
+                      <label>Nombre del Producto</label>
                       <input type="text" value="<?php echo $prod->prod_name; ?>" name="prod_name" class="form-control">
                     </div>
                     <div class="col-md-6">
-                      <label>Product Code</label>
+                      <label>Código del Producto</label>
                       <input type="text" name="prod_code" value="<?php echo $prod->prod_code; ?>" class="form-control" value="">
                     </div>
                   </div>
                   <hr>
                   <div class="form-row">
                     <div class="col-md-6">
-                      <label>Product Image</label>
+                      <label>Imagen del Producto</label>
                       <input type="file" name="prod_img" class="btn btn-outline-success form-control" value="<?php echo $prod_img; ?>">
                     </div>
                     <div class="col-md-6">
-                      <label>Product Price</label>
+                      <label>Precio del Producto</label>
                       <input type="text" name="prod_price" class="form-control" value="<?php echo $prod->prod_price; ?>">
                     </div>
                   </div>
                   <hr>
                   <div class="form-row">
                     <div class="col-md-12">
-                      <label>Product Description</label>
+                      <label>Descripción del producto</label>
                       <textarea rows="5" name="prod_desc" class="form-control" value=""><?php echo $prod->prod_desc; ?></textarea>
                     </div>
                   </div>

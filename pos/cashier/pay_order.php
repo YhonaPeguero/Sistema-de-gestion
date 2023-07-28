@@ -79,30 +79,30 @@ require_once('partials/_head.php');
         <div class="col">
           <div class="card shadow">
             <div class="card-header border-0">
-              <h3>Please Fill All Fields</h3>
+              <h3>Rellene todos los campos</h3>
             </div>
             <div class="card-body">
               <form method="POST"  enctype="multipart/form-data">
                 <div class="form-row">
                   <div class="col-md-6">
-                    <label>Payment ID</label>
+                    <label>ID de pago</label>
                     <input type="text" name="pay_id" readonly value="<?php echo $payid;?>" class="form-control">
                   </div>
                   <div class="col-md-6">
-                    <label>Payment Code</label>
+                    <label>Código de pago</label>
                     <input type="text" name="pay_code" value="<?php echo $mpesaCode; ?>" class="form-control" value="">
                   </div>
                 </div>
                 <hr>
                 <div class="form-row">
                   <div class="col-md-6">
-                    <label>Amount ($)</label>
+                    <label>Cantidad ($)</label>
                     <input type="text" name="pay_amt" readonly value="<?php echo $total;?>" class="form-control">
                   </div>
                   <div class="col-md-6">
-                    <label>Payment Method</label>
+                    <label>Método de pago</label>
                     <select class="form-control" name="pay_method">
-                        <option selected>Cash</option>
+                        <option selected>En efectivo</option>
                         <option>Paypal</option>
                     </select>
                   </div>

@@ -34,16 +34,16 @@ while ($staff_id = $res->fetch_object()) {
           </a>
           <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right">
             <div class=" dropdown-header noti-title">
-              <h6 class="text-overflow m-0">Welcome!</h6>
+              <h6 class="text-overflow m-0">¡Bienvenido!</h6>
             </div>
             <a href="change_profile.php" class="dropdown-item">
               <i class="ni ni-single-02"></i>
-              <span>My profile</span>
+              <span>Mi perfil</span>
             </a>
             <div class="dropdown-divider"></div>
             <a href="logout.php" class="dropdown-item">
               <i class="ni ni-user-run"></i>
-              <span>Logout</span>
+              <span>Cerrar sesión</span>
             </a>
           </div>
         </li>
@@ -69,7 +69,7 @@ while ($staff_id = $res->fetch_object()) {
         <!-- Form -->
         <form class="mt-4 mb-3 d-md-none">
           <div class="input-group input-group-rounded input-group-merge">
-            <input type="search" class="form-control form-control-rounded form-control-prepended" placeholder="Search" aria-label="Search">
+            <input type="search" class="form-control form-control-rounded form-control-prepended" placeholder="Buscar" aria-label="Search">
             <div class="input-group-prepend">
               <div class="input-group-text">
                 <span class="fa fa-search"></span>
@@ -81,49 +81,49 @@ while ($staff_id = $res->fetch_object()) {
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="dashboard.php">
-              <i class="ni ni-tv-2 text-primary"></i> Dashboard
+              <i class="ni ni-tv-2 text-primary"></i> Panel de Control
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="customes.php">
-              <i class="fas fa-users text-primary"></i> Customers
+              <i class="fas fa-users text-primary"></i> Clientes
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="products.php">
-              <i class="ni ni-bullet-list-67 text-primary"></i>Products
+              <i class="ni ni-bullet-list-67 text-primary"></i>Productos
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="orders.php">
-              <i class="ni ni-cart text-primary"></i> Orders
+              <i class="ni ni-cart text-primary"></i> Ordenes
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="payments.php">
-              <i class="ni ni-credit-card text-primary"></i> Payments
+              <i class="ni ni-credit-card text-primary"></i> Pagos
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="receipts.php">
-              <i class="fas fa-file-invoice-dollar text-primary"></i> Receipts
+              <i class="fas fa-file-invoice-dollar text-primary"></i> Recibos
             </a>
           </li>
         </ul>
         <!-- Divider -->
         <hr class="my-3">
         <!-- Heading -->
-        <h6 class="navbar-heading text-muted">Reporting</h6>
+        <h6 class="navbar-heading text-muted">Informes</h6>
         <!-- Navigation -->
         <ul class="navbar-nav mb-md-3">
           <li class="nav-item">
             <a class="nav-link" href="orders_reports.php">
-              <i class="fas fa-shopping-basket"></i> Orders
+              <i class="fas fa-shopping-basket"></i> Ordenes
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="payments_reports.php">
-              <i class="fas fa-funnel-dollar"></i> Payments
+              <i class="fas fa-funnel-dollar"></i> Pagos
             </a>
           </li>
         </ul>
@@ -131,7 +131,7 @@ while ($staff_id = $res->fetch_object()) {
         <ul class="navbar-nav mb-md-3">
           <li class="nav-item">
             <a class="nav-link" href="logout.php">
-              <i class="fas fa-sign-out-alt text-danger"></i> Log Out
+              <i class="fas fa-sign-out-alt text-danger"></i> Cerrar sesión
             </a>
           </li>
         </ul>

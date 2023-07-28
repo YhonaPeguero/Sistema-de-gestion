@@ -60,29 +60,29 @@ require_once('partials/_head.php');
         <div class="col">
           <div class="card shadow">
             <div class="card-header border-0">
-              <h3>Please Fill All Fields</h3>
+              <h3>Rellene todos los campos</h3>
             </div>
             <div class="card-body">
               <form method="POST">
                 <div class="form-row">
                   <div class="col-md-6">
-                    <label>Customer Name</label>
+                    <label>Nombre del Cliente</label>
                     <input type="text" name="customer_name" class="form-control">
                     <input type="hidden" name="customer_id" value="<?php echo $cus_id; ?>" class="form-control">
                   </div>
                   <div class="col-md-6">
-                    <label>Customer Phone Number</label>
+                    <label>Número de teléfono del cliente</label>
                     <input type="text" name="customer_phoneno" class="form-control" value="">
                   </div>
                 </div>
                 <hr>
                 <div class="form-row">
                   <div class="col-md-6">
-                    <label>Customer Email</label>
+                    <label>Correo del cliente</label>
                     <input type="email" name="customer_email" class="form-control" value="">
                   </div>
                   <div class="col-md-6">
-                    <label>Customer Password</label>
+                    <label>Contraseña del Cliente</label>
                     <input type="password" name="customer_password" class="form-control" value="">
                   </div>
                 </div>

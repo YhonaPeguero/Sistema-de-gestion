@@ -71,7 +71,7 @@ require_once('partials/_head.php');
                   <div class="col-md-4">
                     <label>Nombre del cliente</label>
                     <select class="form-control" name="customer_name" id="custName" onChange="getCustomer(this.value)">
-                      <option value="">Select Customer Name</option>
+                      <option value="">Seleccione el nombre del cliente</option>
                       <?php
                       //Load All Customers
                       $ret = "SELECT * FROM  rpos_customers ";

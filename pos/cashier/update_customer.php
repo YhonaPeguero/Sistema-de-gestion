@@ -27,7 +27,7 @@ if (isset($_POST['updateCustomer'])) {
     if ($postStmt) {
       $success = "Customer Added" && header("refresh:1; url=customes.php");
     } else {
-      $err = "Please Try Again Or Try Later";
+      $err = "Vuelva a intentarlo o inténtelo más tarde";
     }
   }
 }
@@ -66,28 +66,28 @@ require_once('partials/_head.php');
           <div class="col">
             <div class="card shadow">
               <div class="card-header border-0">
-                <h3>Please Fill All Fields</h3>
+                <h3>Rellene todos los campos</h3>
               </div>
               <div class="card-body">
                 <form method="POST">
                   <div class="form-row">
                     <div class="col-md-6">
-                      <label>Customer Name</label>
+                      <label>Nombre del Cliente</label>
                       <input type="text" name="customer_name" value="<?php echo $cust->customer_name; ?>" class="form-control">
                     </div>
                     <div class="col-md-6">
-                      <label>Customer Phone Number</label>
+                      <label>Teléfono del cliente</label>
                       <input type="text" name="customer_phoneno" value="<?php echo $cust->customer_phoneno; ?>" class="form-control" value="">
                     </div>
                   </div>
                   <hr>
                   <div class="form-row">
                     <div class="col-md-6">
-                      <label>Customer Email</label>
+                      <label>Correo del Cliente</label>
                       <input type="email" name="customer_email" value="<?php echo $cust->customer_email; ?>" class="form-control" value="">
                     </div>
                     <div class="col-md-6">
-                      <label>Customer Password</label>
+                      <label>Contraseña del cliente</label>
                       <input type="password" name="customer_password" class="form-control" value="">
                     </div>
                   </div>

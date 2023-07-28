@@ -69,15 +69,15 @@ while ($order = $res->fetch_object()) {
                     </div>
                     <div class="row">
                         <div class="text-center">
-                            <h2>Receipt</h2>
+                            <h2>Recibo</h2>
                         </div>
                         </span>
                         <table class="table table-bordered">
                             <thead>
                                 <tr>
-                                    <th>Item</th>
-                                    <th>Quantity</th>
-                                    <th class="text-center">Unit Price</th>
+                                    <th>Artículo</th>
+                                    <th>Cantidad</th>
+                                    <th class="text-center">Precio por unidad</th>
                                     <th class="text-center">Total</th>
                                 </tr>
                             </thead>
