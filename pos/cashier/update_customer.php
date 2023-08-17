@@ -94,7 +94,7 @@ require_once('partials/_head.php');
                   <br>
                   <div class="form-row">
                     <div class="col-md-6">
-                      <input type="submit" name="updateCustomer" value="Update Customer" class="btn btn-success" value="">
+                      <input type="submit" name="updateCustomer" value="Actualizar cliente" class="btn btn-success" value="">
                     </div>
                   </div>
                 </form>

@@ -12,7 +12,7 @@ check_login();
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
     <meta name="author" content="MartDevelopers Inc">
-    <title>Restaurant Point Of Sale </title>
+    <title>Restaurant</title>
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="../admin/assets/img/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../admin/assets/img/icons/favicon-32x32.png">
@@ -47,23 +47,26 @@ while ($order = $res->fetch_object()) {
             <div class="row">
                 <div id="Receipt" class="well col-xs-10 col-sm-10 col-md-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-3">
                     <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                            <strong style="width:200px; margin-bottom: 20px; text-transform:uppercase;">Tasty Corner Restaurant</strong>
+                            </div>
                         <div class="col-xs-6 col-sm-6 col-md-6">
                             <address>
-                                <strong>CodeAstro Lounge</strong>
+                                <strong>La Sabanita</strong>
                                 <br>
-                                127-0-0-1
+                                22000
                                 <br>
-                                4151 Willow Oaks Lane, Sugartown
+                                4151 Pedro Jose Contreras, La Romana
                                 <br>
-                                (+000) 337-337-3069
+                                (+1) 829-337-3069
                             </address>
                         </div>
                         <div class="col-xs-6 col-sm-6 col-md-6 text-right">
                             <p>
-                                <em>Date: <?php echo date('d/M/Y g:i', strtotime($order->created_at)); ?></em>
+                                <em>Fecha: <?php echo date('d/M/Y g:i', strtotime($order->created_at)); ?></em>
                             </p>
                             <p>
-                                <em class="text-success">Receipt #: <?php echo $order->order_code; ?></em>
+                                <em class="text-success">Recibo #: <?php echo $order->order_code; ?></em>
                             </p>
                         </div>
                     </div>
